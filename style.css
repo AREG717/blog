@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 20px 50px;
+}
+
+/* Header section */
+
+.header{
+    background: linear-gradient(rgb(114, 114, 192), rgb(255, 255, 255));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.logo{
+    background: linear-gradient(rgb(114, 114, 192), rgb(255, 255, 255));
+    width: 70px;
+    height: 70px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    width: 20px;
+}
+
+.nav{
+    width: 600px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    margin-right: 10px;
+}
+
+.menu li a{
+    width: 110x;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(48, 47, 45);
+    transition: 0.3s;
+}
+
+.menu li a:hover{
+    color: #083272;
+    font-size: 24px;
+}
+
+/* Body section */
+
+.body{
+    margin-top: 100px;
+}
+
+.box{
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    background: linear-gradient( to right ,rgb(114, 114, 192), 10%, rgb(255, 255, 255));
+    margin-bottom: 20px;
+    border:1px solid rgb(114, 114, 192);
+}
+
+.box2{
+    background: linear-gradient( to left ,rgb(114, 114, 192), 10%, rgb(255, 255, 255));
+}
+
+.box img{
+    width: 400px;
+    margin-right: 20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text p{
+    margin-bottom: 20px;
+}
+
+.text a{
+    text-decoration: none;
+    background-color: rgb(114, 114, 192);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border:1px solid;
+}
+
+.text a:hover{
+    background-color: rgb(81, 81, 194);
+}
+
+time{
+    display: flex;
+    justify-content: end;
+}
+
+.footer{
+    background: linear-gradient(rgb(255, 255, 255),rgb(114, 114, 192));
+    height: 120px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 100px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu_footer{
+    list-style: none;
+}
+
+.menu_footer li a{
+    text-decoration: none;
+}
+
+.menu_footer li a:hover{
+    color: #083272;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#083272;
+}
+
+.aaa{
+    background: linear-gradient(rgb(184, 184, 204),80%,rgb(134, 134, 185));
+}
